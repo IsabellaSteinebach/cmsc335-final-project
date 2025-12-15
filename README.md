@@ -1,4 +1,4 @@
-# Random Dog Generator
+# Random Dog Picture Generator
 ### DaaS (Dogs-as-a-Service): the internet's biggest collection of open source dog pictures
 
 Submitted by: ...\
