@@ -1,0 +1,5 @@
+node_modules/
+credentialsDontPost/
+.env
+.DS_Store
+*.log
