@@ -16,7 +16,8 @@ h1, h2, h3 {
 }
 
 h3 {
-    /* Google font */
+    /* Google font and color */
+    color: rgb(46, 7, 109);
     font-family: "DM Serif Display", serif;
 }
 
@@ -25,8 +26,14 @@ p {
 }
 
 button {
+    /* color */
+    color:rgb(107, 7, 201);
     font-size: 14px;
     width: 9rem;
+}
+
+button:hover{
+    background-color: rgb(255, 78, 205);
 }
 
 input[type ="text"] {
