@@ -26,6 +26,7 @@ router.post("/seeDog", async (req, res) => {
   res.render("seeDog", {
     application,
     completedAt,
+    name: application.name,
     dogImage: dogData.message
   });
 });
