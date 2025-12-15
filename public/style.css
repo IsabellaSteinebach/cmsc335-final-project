@@ -1,10 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 body {
+    /* font size*/
     font-size: 16px;
+    background-color: rgb(230, 196, 253);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
     font-size: 24px;
+}
+
+h3 {
+    /* Google font */
+    font-family: "DM Serif Display", serif;
 }
 
 p {
@@ -13,8 +26,16 @@ p {
 
 button {
     font-size: 14px;
+    width: 9rem;
 }
 
-input {
+input[type ="text"] {
     font-size: 14px;
+    width: 10rem;
 }
+
+img {
+    border: 3px solid #1f2937;
+    margin-bottom: 2rem;
+}
+
