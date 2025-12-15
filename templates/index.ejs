@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Random Dog</title>
+</head>
+
+<body>
+    <h3>Submit your name and get a random dog pic!</h3>
+
+    <form action="/seeDog" method="post">
+        <fieldset>
+            <%# TODO: Add real input here. It can be like "name", "breed" ...%>
+            <b>
+            Name: <input type="text" id="name" name="name" required>
+            </b>
+        </fieldset><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <a href="/dogs">
+        <button type="button">View All Seen Dogs</button>
+    </a>
+
+</body>
+
+</html>

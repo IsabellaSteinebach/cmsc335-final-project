@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Saved Dogs</title>
+</head>
+<body>
+
+    <h2>Saved Dog Images</h2>
+
+    <% if (dogs.length === 0) { %>
+    <p>No dogs saved yet.</p>
+    <% } %>
+
+    <% dogs.forEach(dog => { %>
+    <div style="margin-bottom: 20px;">
+        <p>
+        <strong><%= dog.name %></strong>
+        saw this dog on
+        <%= dog.createdAt.toLocaleString() %>
+        </p>
+        <img src="<%= dog.dogImageUrl %>" width="250">
+    </div>
+    <% }) %>
+
+    <a href="/">
+        <button type="button">Home</button>
+    </a>
+
+    <form action="/clearDogs" method="POST">
+        <button type="submit">Clear All Dogs</button>
+    </form>
+
+</body>
+</html>
