@@ -9,4 +9,5 @@ const dogEntrySchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model("DogEntry", dogEntrySchema);
+// collection name becomes dogentries (it lowercases and pluralizes it)
+module.exports = mongoose.model("DogEntry", dogEntrySchema); 
