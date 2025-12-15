@@ -7,6 +7,6 @@ App Description: Allow users to retrieve a picture of a dog and stores/retrieves
 YouTube Video Link: ...\
 APIs: Dog API (https://dog.ceo/dog-api/)\
 Contact Email: isteineb@terpmail.umd.edu\
-Deployed App Link: ...
+Deployed App Link: https://cmsc335-dog-project.onrender.com/
 
 
