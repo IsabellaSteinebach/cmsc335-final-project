@@ -4,7 +4,7 @@
 Submitted by: Isabella Steinebach (isteineb)\
 Group Members: Isabella Steinebach (isteineb), Kim Luu (kluu1), Dhanya Desai (ddesai19)\
 App Description: Allow users to retrieve a picture of a dog and stores/retrieves all past generated dog pictures.\
-YouTube Video Link: ...\
+YouTube Video Link: https://www.youtube.com/watch?v=XwARdqfnzKA \
 API: Dog API (https://dog.ceo/dog-api/) \
 Contact Email: isteineb@terpmail.umd.edu\
 Deployed App Link: https://cmsc335-dog-project.onrender.com/
